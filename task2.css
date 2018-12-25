@@ -1,0 +1,197 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: 'Microsoft YaHei';
+    background: whitesmoke;
+}
+
+/*-----------header------------*/
+header {
+    height: 60px;
+    background: rgb(61, 85, 85);
+}
+
+header h1 {
+    height: 40px;
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 85px;
+}
+
+header img {
+    padding-left: 20px;
+    height: 58px;
+}
+
+header ul {
+    position: absolute;
+    top: 0;
+    right: 5px;
+}
+
+header li {
+    text-align: center;
+    width: 60px;
+    display: block;
+    float: left;
+    padding: 20px 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+header li:hover {
+    border-bottom: 3px solid #b3604f;
+    background: rgb(69, 96, 109);
+    border-radius: 3px;
+}
+
+/*-----------main------------*/
+article,figure,aside {
+    display: block;
+    background: white;
+    margin: 30px;
+    padding: 20px;
+    box-shadow: 1px 1px 2px 1px #848484;
+}
+
+.FLH {
+    padding: 5px 0;
+}
+
+article h3 {
+    padding: 10px 0;
+    color: #808080;
+    font-size: 16px;
+}
+
+article a {
+    color: blue;
+}
+
+article a:hover {
+    color: red;
+}
+
+.author, .addressT {
+    line-height: 30px;
+    color: #808080;
+    font-size: 14px;
+}
+
+article p {
+    text-indent: 2em;
+}
+
+article img {
+    padding: 15px 0;
+    width: 100%;
+}
+
+article ul li {
+    list-style-type: none;
+}
+
+figure dd{
+    border: 1px solid #ccc;
+    margin: 15px;
+    width: 95%;
+}
+
+figure figcaption {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    margin: 5px;
+}
+
+figure img {
+    padding: 5px 5px;
+    width: 98.5%;
+}
+
+article ol {
+    margin: 10px 40px;
+}
+
+article table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+article th {
+    color: white;
+    background: #333;
+}
+
+article td {
+    border: 1px solid #ccc;
+}
+
+article tfoot {
+    background: #ccc;
+}
+
+/*-----------aside------------*/
+aside h4 {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    border-left: 3px solid #ccc;
+}
+
+aside div {
+    font-size: 14px;
+    margin: 15px 0;
+}
+
+aside .tips {
+    float: left;
+    text-align: right;
+    width: 45%;
+    padding-right: 15px;
+}
+
+aside p {
+    color: #aaa;
+    font-size: 12px;
+    margin-left: 35%;
+    padding-left: 15px;
+}
+
+aside textarea {
+    width: 35%;
+    height: 100px;
+}
+
+aside .submitButton {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    background: #128fdc;
+    color: white;
+    font-size: 19px;
+    border: none;
+}
+
+aside .submitButton:hover {
+    background: red;
+}
+
+/*-----------footer------------*/
+footer {
+    width: 100%;
+    height: 50px;
+    background: rgb(61, 85, 85);
+    color: white;
+    line-height: 50px;
+    font-size: 14px;
+    text-align: center;
+}
