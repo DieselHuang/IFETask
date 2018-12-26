@@ -9,27 +9,30 @@ body {
 }
 
 /*-----------header------------*/
-header {
-    height: 60px;
+/*设置banner的高度与背景颜色*/
+header { 
+    height: 70px;
     background: rgb(61, 85, 85);
 }
 
+/*设置网页标题的颜色、大小等，并通过绝对定位使之垂直居中和位于logo右侧合适的位置*/
 header h1 {
     height: 40px;
     color: white;
     position: absolute;
-    top: 10px;
+    top: 13px;
     left: 85px;
 }
 
 header img {
     padding-left: 20px;
+    padding-top: 6px;
     height: 58px;
 }
 
 header ul {
     position: absolute;
-    top: 0;
+    top: 5px;
     right: 5px;
 }
 
@@ -37,7 +40,7 @@ header li {
     text-align: center;
     width: 60px;
     display: block;
-    float: left;
+    float: left; /*垂直排列变为水平排列*/
     padding: 20px 10px;
 }
 
@@ -48,9 +51,9 @@ header a {
 }
 
 header li:hover {
-    border-bottom: 3px solid #b3604f;
+    border-bottom: 5px solid #b3604f; /*设置框框地下的条带*/
     background: rgb(69, 96, 109);
-    border-radius: 3px;
+    border-radius: 5px; /*设置弧度*/
 }
 
 /*-----------main------------*/
@@ -66,7 +69,7 @@ article,figure,aside {
     padding: 5px 0;
 }
 
-article h3 {
+.SLH {
     padding: 10px 0;
     color: #808080;
     font-size: 16px;
@@ -91,8 +94,8 @@ article p {
 }
 
 article img {
-    padding: 15px 0;
-    width: 100%;
+    padding: 15px auto;
+    width: 100%; /*图片居中*/
 }
 
 article ul li {
@@ -101,20 +104,20 @@ article ul li {
 
 figure dd{
     border: 1px solid #ccc;
-    margin: 15px;
-    width: 95%;
+    margin: 5px 0;
+    width: 100%;
 }
 
 figure figcaption {
     display: block;
     font-size: 20px;
     text-align: center;
-    margin: 5px;
+    margin: 2px;
 }
 
 figure img {
-    padding: 5px 5px;
-    width: 98.5%;
+    padding: 1px 5px 5px 5px;
+    width: 98%;
 }
 
 article ol {
@@ -153,8 +156,8 @@ aside div {
 }
 
 aside .tips {
-    float: left;
-    text-align: right;
+    float: left;/*块级框左悬浮*/
+    text-align: right;/*框中文本靠右*/
     width: 45%;
     padding-right: 15px;
 }
