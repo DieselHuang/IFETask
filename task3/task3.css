@@ -2,7 +2,7 @@
     background: #eee;
     padding: 10px;
     min-width: 900px;
-    overflow: auto;
+    overflow: auto;/*实现背景高度随最高栏高度变化*/
 }
 
 #left, #right, #middle {
@@ -41,7 +41,7 @@
 /*----------右边----------*/
 #right {
     float: right;
-    width: 150px;
+    width: 130px;
     margin-top: 10px;
     margin-right: 10px;
 }
@@ -60,7 +60,7 @@
 }
 /*----------中间----------*/
 #middle {
-    margin: 10px 180px 10px 270px;
+    margin: 10px 160px 10px 270px;
     padding: 5px 15px;
 }
 
