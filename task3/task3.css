@@ -1,0 +1,73 @@
+#container {
+    background: #eee;
+    padding: 10px;
+    min-width: 900px;
+    overflow: auto;
+}
+
+#left, #right, #middle {
+    border: 1px solid black;
+    background: white;
+    border-radius: 5px;
+}
+
+/*----------左边----------*/
+#left {
+    float: left;
+    width: 240px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#selfie {
+    width: 100px;
+    margin: 5px 10px 5px 5px;
+    border-radius: 5px;
+    float: left;
+}
+
+#left p {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+#github {
+    width: 25px;
+    float: left;
+}
+
+/*----------右边----------*/
+#right {
+    float: right;
+    width: 150px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#right p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#right img {
+    width: 100px;
+    border-radius: 5px;
+    display: block;
+    margin: 5px auto;
+}
+/*----------中间----------*/
+#middle {
+    margin: 10px 180px 10px 270px;
+    padding: 5px 15px;
+}
+
+#middle h1 {
+    text-align: center;
+}
+
+#middle p {
+    text-indent: 2em;
+}
