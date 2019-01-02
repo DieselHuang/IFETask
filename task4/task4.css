@@ -1,0 +1,31 @@
+.container {
+    background: #ccc;
+    height: 200px;
+    width: 400px;
+
+    /*放置1/4圆*/
+    display: flex; /*设置为Flex布局*/
+    flex-direction: column; /*项目由上向下排列*/
+    justify-content: space-between; /*两个1/4圆靠左紧贴方框的上下边*/
+
+    /*水平垂直居中*/
+    position: absolute;
+    top: 50%; /*相对于定位参照对象（在此处即浏览器窗口），container的上边缘下移参照对象高度的一半的距离*/
+    left: 50%; 
+    margin: -100px 0 0 -200px; /*container上边缘下移其自身高度的一半的距离实现垂直居中，水平居中同理*/
+}
+
+.left-top {
+    width: 50px;
+    height: 50px;
+    background: #fc0;
+    border-radius: 0px 0px 50px 0px; /*实现右下角的圆弧*/
+}
+
+.right-bottom {
+    width: 50px;
+    height: 50px;
+    background: #fc0;
+    border-radius: 50px 0px 0px 0px;
+    align-self: flex-end; /*右下的1/4圆靠右放置*/
+}
