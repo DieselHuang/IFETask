@@ -1,0 +1,213 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: 'Microsoft YaHei';
+    background: whitesmoke;
+    min-width: 800px;
+}
+
+/*-----------header------------*/
+/*设置banner的高度与背景颜色*/
+header { 
+    height: 70px;
+    background: rgb(61, 85, 85);
+    width: 100%;
+    position: relative;
+}
+
+header img {
+    padding: 6px 20px;
+    height: 58px;
+}
+
+header h1 {
+    position: absolute;
+    height: 40px;
+    top: 15px;
+    left: 98px;
+    color: white;
+}
+
+header ul {
+    position: absolute;
+    top: 5px;
+    right: 3px;
+}
+
+header li {
+    text-align: center; /*在自己的小框框里面水平居中*/
+    width: 60px;
+    display: block;
+    float: left; /*垂直排列变为水平排列，left使1234由左向右排列*/
+    padding: 20px 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+header li:hover {
+    border-bottom: 5px solid #b3604f; /*设置框框底下的条带*/
+    background: rgb(69, 96, 109);
+    border-radius: 5px; /*设置弧度*/
+}
+
+/*-----------main------------*/
+article,figure {
+    display: block;
+    background: white;
+    margin: 30px 20px 30px 380px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.FLH {
+    padding: 5px 0;
+}
+
+.SLH {
+    padding: 10px 0;
+    color: #808080;
+    font-size: 16px;
+}
+
+article a {
+    color: blue;
+}
+
+article a:hover {
+    color: red;
+}
+
+.author, .addressT {
+    line-height: 30px;
+    color: #808080;
+    font-size: 14px;
+}
+
+article p {
+    text-indent: 2em;
+}
+
+article img {
+    padding: 15px auto;
+    width: 100%; /*图片居中*/
+}
+
+article ul li {
+    list-style-type: none;
+}
+
+figure dd{
+    border: 1px solid #ccc;
+    margin: 5px 0;
+    width: 100%;
+}
+
+figure figcaption {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    margin: 2px;
+}
+
+figure img {
+    padding: 1px 5px 5px 5px;
+    width: 98%;
+}
+
+article ol {
+    margin: 10px 40px;
+}
+
+article table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+article th {
+    color: white;
+    background: #333;
+}
+
+article td {
+    border: 1px solid #ccc;
+}
+
+article tfoot {
+    background: #ccc;
+}
+
+/*-----------aside------------*/
+aside {
+    float: left;
+    display: block;
+    background: white;
+    padding: 20px;
+    width: 300px;
+    margin: 30px 20px;
+    border-radius: 5px;
+    position: sticky;
+    top: 30px;
+}
+
+aside h4 {
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    border-left: 3px solid #ccc;
+}
+
+aside div {
+    font-size: 14px;
+    margin: 15px 0;
+}
+
+aside .tips {
+    float: left;/*块级框左悬浮*/
+    text-align: right;/*框中文本靠右*/
+    width: 35%;
+    padding-right: 15px;
+}
+
+aside p {
+    color: #aaa;
+    font-size: 12px;
+    margin-left: 0%;
+    padding-left: 15px;
+}
+
+aside textarea {
+    width: 50%;
+    height: 100px;
+}
+
+aside .submitButton {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    background: #128fdc;
+    color: white;
+    font-size: 19px;
+    border: none;
+}
+
+aside .submitButton:hover {
+    background: red;
+}
+
+/*-----------footer------------*/
+footer {
+    width: 100%;
+    height: 50px;
+    background: rgb(61, 85, 85);
+    color: white;
+    line-height: 50px;
+    font-size: 14px;
+    text-align: center;
+}
